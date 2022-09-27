@@ -1,0 +1,38 @@
+{
+    // 使用 IntelliSense 了解相关属性。 
+    // 悬停以查看现有属性的描述。
+    // 欲了解更多信息，请访问: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Upload FtptoolApplication",
+            "request": "launch",
+            "mainClass": "me.sany.ftptool.FtptoolApplication",
+            "projectName": "ftptool",
+            "args": "upload /Users/shangyehua/tmp/ftp-test ftp-test2"
+        },
+        {
+            "type": "java",
+            "name": "Download FtptoolApplication",
+            "request": "launch",
+            "mainClass": "me.sany.ftptool.FtptoolApplication",
+            "projectName": "ftptool",
+            "args": "download ftp-down3 ftp-test2"
+        },
+        {
+            "type": "java",
+            "name": "Delete FtptoolApplication",
+            "request": "launch",
+            "mainClass": "me.sany.ftptool.FtptoolApplication",
+            "projectName": "ftptool",
+            "args": "delete ftp-test2"
+        }
+    ]
+}
